@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16053d58-9a94-4c21-842e-a19d96195335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/configuration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/blog-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/default/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/default.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +66,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.10.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -62,7 +100,8 @@
       <updated>1579367628301</updated>
       <workItem from="1579367629481" duration="64000" />
       <workItem from="1579367717044" duration="3282000" />
-      <workItem from="1579371042956" duration="3070000" />
+      <workItem from="1579371042956" duration="4012000" />
+      <workItem from="1579375169747" duration="1950000" />
     </task>
     <servers />
   </component>
@@ -74,10 +113,14 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="278" y="58" width="800" height="684" key="#Usage_Scope/0.28.1366.740@0.28.1366.740" timestamp="1579371117921" />
-    <state x="466" y="140" width="424" height="520" key="FileChooserDialogImpl" timestamp="1579370276690">
+    <state x="394" y="171" width="568" height="423" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579376433769">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="466" y="140" width="424" height="520" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1579370276690" />
+    <state x="394" y="171" width="568" height="423" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1366.740@0.28.1366.740" timestamp="1579376433769" />
+    <state x="466" y="140" width="424" height="520" key="FileChooserDialogImpl" timestamp="1579375052339">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="466" y="140" width="424" height="520" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1579375052339" />
     <state x="172" y="28" width="1022" height="737" key="SettingsEditor" timestamp="1579371120433">
       <screen x="0" y="28" width="1366" height="740" />
     </state>

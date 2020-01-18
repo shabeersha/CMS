@@ -1,13 +1,15 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
+const hbs = require('express-handlebars');
+const {mongoDBurl}= require('./config/configuration');
 
 
 const app=express();
 
 //Config Mongoose
 
-mongoose.connect("mongodb://localhost:27017/cmsDB",{ useNewUrlParser: true })
+mongoose.connect(mongoDBurl,{ useNewUrlParser: true })
     .then( response =>{
         console.log("MongoDB connected Successfully");
     }).catch( err=>{
@@ -21,10 +23,20 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(express.static(path.join(__dirname,'public')));
 
+
+
+
+/* Setup view Engine for Using Handlebars */
+
+app.engine('.hbs',hbs({defaultLayout:'default', extname:'.hbs'}));
+app.set('view engine', '.hbs');
+
+
+
 /* Routes */
 
 app.use('/',(req,res) =>{
-        res.send("welcome to cms");
+        res.render('default/index');
 });
 
 
