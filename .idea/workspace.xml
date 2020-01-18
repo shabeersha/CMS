@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16053d58-9a94-4c21-842e-a19d96195335" name="Default Changelist" comment="" />
+    <list default="true" id="16053d58-9a94-4c21-842e-a19d96195335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WZqn5qRx0tCW9kANNylHc7zhlS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.10.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -41,6 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579367628301</updated>
       <workItem from="1579367629481" duration="64000" />
+      <workItem from="1579367717044" duration="3282000" />
+      <workItem from="1579371042956" duration="278000" />
     </task>
     <servers />
   </component>
@@ -48,9 +72,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="172" y="28" width="1022" height="737" key="SettingsEditor" timestamp="1579367693809">
+    <state x="278" y="58" width="800" height="684" key="#Usage_Scope" timestamp="1579371117921">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="172" y="28" width="1022" height="737" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1579367693809" />
+    <state x="278" y="58" width="800" height="684" key="#Usage_Scope/0.28.1366.740@0.28.1366.740" timestamp="1579371117921" />
+    <state x="466" y="140" width="424" height="520" key="FileChooserDialogImpl" timestamp="1579370276690">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="466" y="140" width="424" height="520" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1579370276690" />
+    <state x="172" y="28" width="1022" height="737" key="SettingsEditor" timestamp="1579371120433">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="172" y="28" width="1022" height="737" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1579371120433" />
+    <state x="347" y="165" key="run.anything.popup" timestamp="1579368458454">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="347" y="165" key="run.anything.popup/0.28.1366.740@0.28.1366.740" timestamp="1579368458454" />
   </component>
 </project>
