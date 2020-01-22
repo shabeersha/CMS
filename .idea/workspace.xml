@@ -2,39 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16053d58-9a94-4c21-842e-a19d96195335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/configuration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/blog-home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/default/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layouts/default.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/defaultController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/postModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/defaultRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/default/footer.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/default/header.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/default/top-nav.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/configuration.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/configuration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/default/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/default/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/default.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/default.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +53,10 @@
       <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/views/partials/default" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -101,7 +83,9 @@
       <workItem from="1579367629481" duration="64000" />
       <workItem from="1579367717044" duration="3282000" />
       <workItem from="1579371042956" duration="4012000" />
-      <workItem from="1579375169747" duration="1950000" />
+      <workItem from="1579375169747" duration="3025000" />
+      <workItem from="1579538430379" duration="1213000" />
+      <workItem from="1579702229155" duration="3172000" />
     </task>
     <servers />
   </component>
@@ -117,6 +101,10 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="394" y="171" width="568" height="423" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1366.740@0.28.1366.740" timestamp="1579376433769" />
+    <state x="304" y="149" width="747" height="467" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1579377818485">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="304" y="149" width="747" height="467" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.28.1366.740@0.28.1366.740" timestamp="1579377818485" />
     <state x="466" y="140" width="424" height="520" key="FileChooserDialogImpl" timestamp="1579375052339">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
