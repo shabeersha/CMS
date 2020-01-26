@@ -36,7 +36,11 @@ app.set('view engine', '.hbs');
 /* Routes */
 
 const defaultRoutes=require('./routes/defaultRoutes');
+const adminRoutes=require('./routes/adminRoutes');
+
 app.use('/',defaultRoutes);
+app.use('/admin',adminRoutes);
+
 
 
 
