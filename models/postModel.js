@@ -3,6 +3,13 @@ const Schema = mongoose.Schema;
 
 const PostSchema = Schema({
 
+  /*  sl_no:{
+        type: Number,
+        default: function() {
+            return Math.floor(Math.random()*9) + 100
+        }
+    },*/
+
    title:{
        type: String,
        required: true

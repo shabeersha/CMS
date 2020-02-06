@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/shabeersha/CMS#readme",
   "devDependencies": {
+    "handlebars": "^4.5.0",
     "nodemon": "^2.0.2"
   },
   "dependencies": {

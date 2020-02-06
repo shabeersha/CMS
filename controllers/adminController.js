@@ -5,8 +5,11 @@ module.exports={
   index:(req,res)=>{
       res.render('admin/index');
   },
-    getPosts:(rew,res)=>{
-      res.render('admin/posts/index');
+    getPosts:(req,res)=>{
+    Post.find().then(posts => {
+      res.render('admin/posts/index',{posts:posts});
+    });
+
     },
     submitPosts:(req,res)=>{
       const newPost= new Post({
