@@ -19,10 +19,10 @@ const PostSchema = Schema({
     },
 
     description:{
-       type: Schema,
+       type: String,
         required: true
     }
 
 });
 
-module.exports = { post: mongoose.model('post',PostSchema)};
+module.exports = { Post: mongoose.model('post',PostSchema)};
