@@ -38,5 +38,13 @@ module.exports={
     Post.findById(id).then(post=>{
       res.render('admin/posts/edit',{post:post});
     });
+    },
+    deletepost:(req,res)=>{
+      Post.findByIdAndDelete(req.params.id)
+          .then(deletedPost=>{
+          req.flash('success-message',`The Post ${deletedPost.title} Has been Deleted`);
+          res.redirect('/admin/posts');
+          });
     }
+
 };

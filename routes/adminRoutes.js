@@ -20,4 +20,7 @@ router.route('/posts/create')
 router.route('/posts/edit/:id')
     .get(adminController.editpost);
 
+router.route('/posts/delete/:id')
+    .delete(adminController.deletepost);
+
 module.exports=router;
