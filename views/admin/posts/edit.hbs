@@ -1,12 +1,12 @@
 <div class="container">
-    <h1>Create New Post</h1>
+    <h1>Edit Post</h1>
     <div class="row p-4">
         <div class="col-md-10">
             <form action="/admin/posts/create" method="post">
 
                 <div class="form-group">
                     <label for="title">Title</label>
-                    <input type="text"  class="form-control" name="title" id="title" placeholder="Enter Post Title here">
+                    <input type="text"  class="form-control" name="title" id="title" placeholder="Enter Post Title here" value="{{post.title}}">
                 </div>
 
                 <div class="form-group">
@@ -27,7 +27,7 @@
 
                 <div class="form-group">
                     <label for="description">Content</label>
-                    <textarea name="description" id="description" class="form-control" placeholder="Enter The Content Here" rows="10"></textarea>
+                    <textarea name="description" id="description" class="form-control" placeholder="Enter The Content Here" rows="10">{{post.description}}</textarea>
                 </div>
 
                 <button type="submit" class="btn btn-outline-success btn-lg" >Create Post</button>

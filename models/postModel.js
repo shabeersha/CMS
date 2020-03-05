@@ -28,6 +28,22 @@ const PostSchema = Schema({
     description:{
        type: String,
         required: true
+    },
+    user:{
+       type: Schema.Types.ObjectId,
+        ref: 'user'
+    },
+    category:{
+       type:Schema.Types.ObjectId,
+        ref:'Category'
+    },
+    comments:[{
+       type:Schema.Types.ObjectId,
+        ref:'comment'
+    }],
+    allowComments:{
+       type:Boolean,
+        default:false
     }
 
 });
