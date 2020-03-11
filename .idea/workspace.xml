@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16053d58-9a94-4c21-842e-a19d96195335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/admin/category/index.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/adminController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/adminController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/adminRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/adminRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/posts/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/posts/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/admin/messages.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/admin/messages.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/admin/admin-footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/admin/admin-footer.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,9 @@
       <workItem from="1581027171983" duration="6413000" />
       <workItem from="1581692084829" duration="9000" />
       <workItem from="1581936232206" duration="144000" />
-      <workItem from="1583381421197" duration="9175000" />
+      <workItem from="1583381421197" duration="9570000" />
+      <workItem from="1583924887468" duration="825000" />
+      <workItem from="1583961876857" duration="3880000" />
     </task>
     <servers />
   </component>
