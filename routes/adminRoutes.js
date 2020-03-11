@@ -18,7 +18,8 @@ router.route('/posts/create')
     .post(adminController.submitPosts);
 
 router.route('/posts/edit/:id')
-    .get(adminController.editpost);
+    .get(adminController.editpost)
+    .put(adminController.editpostsubmit);
 
 router.route('/posts/delete/:id')
     .delete(adminController.deletepost);

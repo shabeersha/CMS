@@ -41,10 +41,39 @@ module.exports={
     },
     editpost:(req,res)=>{
     const id=req.params.id;
-    Post.findById(id).then(post=>{
-      res.render('admin/posts/edit',{post:post});
+    Post.findById(id)
+        .then(post=>{
+          Category.find().then(cats=>{
+            res.render('admin/posts/edit',{post:post,categories:cats});
+          })
+
     });
     },
+
+  editpostsubmit:(req,res)=>{
+    const commentsAllowed = req.body.allowComments?true:false;
+
+
+    const id=req.params.id;
+    Post.findById(id)
+        .then(post=>{
+         post.title=req.body.title;
+         post.status=req.body.status;
+         post.allowComments=commentsAllowed;
+         post.description=req.body.description;
+         post.category=req.body.category;
+
+         post.save().then(updatePost => {
+           req.flash('success-message',`The Post ${updatePost.title} has been updated.`);
+           res.redirect('/admin/posts');
+         });
+
+
+
+        });
+
+  },
+
     deletepost:(req,res)=>{
       Post.findByIdAndDelete(req.params.id)
           .then(deletedPost=>{

@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16053d58-9a94-4c21-842e-a19d96195335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/customFunctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/adminController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/adminController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/posts/create.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/posts/create.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/adminRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/adminRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/posts/edit.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/posts/edit.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/posts/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/posts/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <workItem from="1581936232206" duration="144000" />
       <workItem from="1583381421197" duration="9570000" />
       <workItem from="1583924887468" duration="825000" />
-      <workItem from="1583961876857" duration="5443000" />
+      <workItem from="1583961876857" duration="8267000" />
     </task>
     <servers />
   </component>
@@ -101,10 +102,10 @@
     </state>
     <state x="278" y="58" width="800" height="684" key="#Usage_Scope/0.28.1366.740@0.28.1366.740" timestamp="1579371117921" />
     <state x="444" y="70" key="#Usage_Scope/67.27.1853.1053@67.27.1853.1053" timestamp="1580053702723" />
-    <state x="554" y="209" width="568" height="423" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580725994874">
+    <state x="554" y="209" width="638" height="414" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583967491545">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="554" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1580725994874" />
+    <state x="554" y="209" width="638" height="414" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1583967491545" />
     <state x="394" y="171" width="568" height="423" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1366.740@0.28.1366.740" timestamp="1579376433769" />
     <state x="304" y="149" width="747" height="467" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1579377818485">
       <screen x="0" y="28" width="1366" height="740" />
