@@ -7,7 +7,9 @@ module.exports={
       res.render('admin/index');
   },
     getPosts:(req,res)=>{
-    Post.find().then(posts => {
+    Post.find()
+        .populate('category')
+        .then(posts => {
       res.render('admin/posts/index',{posts:posts});
     });
 
@@ -21,7 +23,8 @@ module.exports={
         title:req.body.title,
         description:req.body.description,
         status:req.body.status,
-        allowComments:commentsAllowed
+        allowComments:commentsAllowed,
+        category:req.body.category
       });
 
       newPost.save().then(post =>{
@@ -32,7 +35,9 @@ module.exports={
       });
     },
     createPosts:(req,res)=>{
-      res.render('admin/posts/create');
+      Category.find().then(cats=>{
+        res.render('admin/posts/create', {categories: cats});
+      })
     },
     editpost:(req,res)=>{
     const id=req.params.id;
