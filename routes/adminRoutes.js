@@ -30,4 +30,9 @@ router.route('/category')
     .get(adminController.getCategories)
     .post(adminController.createCategories);
 
+router.route('/category/edit/:id')
+    .get(adminController.editCategoriesGetRoute)
+    .post(adminController.editCategoriesPostRoute);
+
+
 module.exports=router;
