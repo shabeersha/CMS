@@ -7,6 +7,7 @@ const flash = require('connect-flash');
 const session = require('express-session');
 const methodOverride= require('method-override');
 const {selectOption}=require('./config/customFunctions');
+const fileUpload = require('express-fileupload');
 
 const {globalVariables} = require('./config/configuration');
 
@@ -39,6 +40,10 @@ app.use(session({
 app.use(flash());
 
 app.use(globalVariables);
+
+/*File upload middleware*/
+
+app.use(fileUpload());
 
 
 
