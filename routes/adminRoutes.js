@@ -34,5 +34,9 @@ router.route('/category/edit/:id')
     .get(adminController.editCategoriesGetRoute)
     .post(adminController.editCategoriesPostRoute);
 
+router.route('/category/delete/:id')
+    .delete(adminController.deletecategory);
+
+
 
 module.exports=router;

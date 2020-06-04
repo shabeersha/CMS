@@ -139,6 +139,13 @@ module.exports={
 
       })
     }
-  }
+  },
+  deletecategory:(req,res)=>{
+    Post.findByIdAndDelete(req.params.id)
+        .then(deletedcategory=>{
+          req.flash('success-message',`The Post ${deletedcategory.title} Has been Deleted`);
+          res.redirect('/admin/category');
+        });
+  },
 
 };

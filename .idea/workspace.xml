@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16053d58-9a94-4c21-842e-a19d96195335" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/adminController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/adminController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/defaultController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/defaultController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/default/register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/default/register.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/adminRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/adminRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/defaultRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/defaultRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/default/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/default/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +31,11 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -43,26 +45,15 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/css" />
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/routes" />
       <recent name="$PROJECT_DIR$/views/partials/default" />
     </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/partials/default" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,12 +81,20 @@
       <workItem from="1583924887468" duration="825000" />
       <workItem from="1583961876857" duration="8471000" />
       <workItem from="1584014194474" duration="12643000" />
-      <workItem from="1584043969024" duration="2622000" />
+      <workItem from="1584043969024" duration="6548000" />
+      <workItem from="1584050749801" duration="147000" />
+      <workItem from="1584089556616" duration="1481000" />
+      <workItem from="1584256449988" duration="2113000" />
+      <workItem from="1584445720850" duration="175000" />
+      <workItem from="1584446148275" duration="1267000" />
+      <workItem from="1584530444002" duration="249000" />
+      <workItem from="1584659495049" duration="27000" />
+      <workItem from="1591269511656" duration="619000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="444" y="70" width="800" height="684" key="#Usage_Scope" timestamp="1580053702723">

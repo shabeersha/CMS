@@ -17,7 +17,6 @@ module.exports = {
     res.render('default/login');
     },
     loginPost:(req,res) => {
-        res.send("submitted");
     },
 
 
